@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(imagens/background-m.png);
+    background-color: rgb(29, 29, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header nav {
+    background-color: aliceblue;
+    margin: auto;
+    width: 100vh;
+    height: 60px;
+}
+
+#smartphone {
+    max-width: 450px;
+    max-height: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#smartphone img {
+    max-width: 450px;
+    max-height: 900px;
+    margin: auto;
+
+}
+
+iframe {
+    background-color: transparent;
+    width: 391px;
+    height: 801px;
+    border-radius: 30px;
+    margin-top: 53px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icones {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FFFFFF;
+}
+.pulso {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+img {
+    width: 370px;
+
+}
+a {
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+    height: 25px;
+    background-color: rgb(192, 166, 131);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(83, 38, 12);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img.botao-home {
+    width: 40px;
+    height: 40px;
+}
+
+a.voltar {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
