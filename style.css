@@ -3,38 +3,38 @@
     margin: 0px;
 }
 
+body,html {
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+}
+
 body {
-    background-image: url(imagens/background-m.png);
-    background-color: rgb(29, 29, 75);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url(imagens/background-m.png) no-repeat top center;
     background-attachment: fixed;
+    background-size: cover;
+
 }
 
-header nav {
-    background-color: aliceblue;
-    margin: auto;
-    width: 100vh;
-    height: 60px;
+main {
+    position: relative;
+    height: 100vh;
 }
 
-#smartphone {
-    max-width: 450px;
-    max-height: 900px;
+div#smartphone {
+    width: 444px;
+    height: 928px;
+    
+    background-image: url(imagens/galaxys9-front-pp.png);
+    background-repeat: no-repeat;
+
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#smartphone img {
-    max-width: 450px;
-    max-height: 900px;
-    margin: auto;
-
-}
-
-iframe {
+/* iframe {
     background-color: transparent;
     width: 391px;
     height: 801px;
@@ -48,4 +48,4 @@ iframe {
 .icones {
     width: 30px;
     height: 30px;
-}
+} */
