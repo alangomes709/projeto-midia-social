@@ -11,22 +11,28 @@ body {
     transform: translateX(-50%);
 }
 img {
-    width: 370px;
-
+    width: 100vw;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 a {
     width: 300px;
     padding: 15px;
     margin: auto;
     height: 25px;
-    background-color: rgb(192, 166, 131);
+    background-color: rgb(98, 153, 170);
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 35px;
     display: block;
     text-align: center;
+    font-weight: bold;
     text-decoration: none;
-    color: rgb(83, 38, 12);
+    color: whitesmoke;
 }
 
 a:hover {
